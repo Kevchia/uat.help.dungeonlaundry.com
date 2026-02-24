@@ -44,7 +44,7 @@ plugins:
       enable_creation_date: true
       type: date
       timezone: Asia/Taipei
-      locale: zh_TW
+      locale: zh
 
 markdown_extensions:
   - admonition
