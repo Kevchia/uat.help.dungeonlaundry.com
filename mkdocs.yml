@@ -78,10 +78,10 @@ nav:
   - 首頁: index.md
 
   - 法律文件:
-      - 服務條款: legal/fu-wu-tiao-kuan.md
+      - 服務條款: legal/tos.md
       - 隱私權政策: legal/privacy-policy.md
       - 資料安全: legal/data-security.md
-      - 常客計劃條款與條件: legal/chang-ke-ji-hua-tiao-kuan-yu-tiao-jian.md
+      - 常客計劃條款與條件: legal/members-program.md
 
   # Optional sections (only keep if you have these files)
   # - 會員制度:
