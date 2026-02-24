@@ -5,14 +5,12 @@
 #   mkdocs-git-revision-date-localized-plugin==1.2.x
 
 site_name: Dungeon Laundry Help Center
-site_description: Official Help & Legal Documentation for Dungeon Laundry
 site_author: Dungeon Laundry
-site_url: https://help.dungeonlaundry.com/
+site_url: https://uathelp.dungeonlaundry.com/
+site_description: Official Help & Legal Documentation for Dungeon Laundry
 
-# Optional repo links (edit to your real repo)
-repo_url: https://github.com/YOUR_USERNAME/YOUR_REPO
-repo_name: dungeonlaundry/help-center
-edit_uri: edit/main/docs/
+# Copyright
+copyright: Copyright © 2026 Dungeon Laundry. All rights reserved.
 
 theme:
   name: material
@@ -41,7 +39,7 @@ plugins:
   - search:
       lang: [zh, en]
   - git-revision-date-localized:
-      enable_creation_date: true
+      enable_creation_date: false
       type: date
       timezone: Asia/Taipei
       locale: zh
@@ -61,19 +59,30 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
+
+# Additional configuration
 extra:
-  generator: false
-  # Optional social links (edit/remove)
-  # social:
-  #   - icon: fontawesome/brands/instagram
-  #     link: https://instagram.com/dungeonlaundry
-  #   - icon: fontawesome/brands/line
-  #     link: https://line.me/
+  status:
+    new: Recently added
+    deprecated: Deprecated
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/squidfunk
+    - icon: fontawesome/brands/docker
+      link: https://hub.docker.com/r/squidfunk/mkdocs-material/
+    - icon: fontawesome/brands/python
+      link: https://pypi.org/project/mkdocs-material/
+    - icon: fontawesome/brands/bluesky
+      link: https://bsky.app/profile/squidfunk.bsky.social
+    - icon: fontawesome/brands/mastodon
+      link: https://fosstodon.org/@squidfunk
+    - icon: fontawesome/brands/x-twitter
+      link: https://x.com/squidfunk
 
-# Put a minimal legal footer (edit as needed)
-copyright: >
-  Copyright © 2026 Dungeon Laundry. All rights reserved.
-
+# Page tree
 nav:
   - 首頁: index.md
 
