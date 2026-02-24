@@ -1,6 +1,73 @@
-site_name: My Docs
+site_name: Dungeon Laundry Help Center
+site_description: Official Help & Legal Documentation for Dungeon Laundry
+site_author: Dungeon Laundry
+site_url: https://uathelp.dungeonlaundry.com/
+
+repo_url: https://github.com/YOUR_USERNAME/YOUR_REPO
+repo_name: dungeonlaundry/help-center
+
 theme:
   name: material
+  language: zh-TW
+  favicon: assets/favicon.png
+  logo: assets/logo.png
+  features:
+    - navigation.sections
+    - navigation.top
+    - navigation.instant
+    - navigation.tracking
+    - search.highlight
+    - search.share
+    - content.code.copy
+    - content.action.edit
+    - content.tooltips
+  palette:
+    - scheme: default
+      primary: black
+      accent: deep purple
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/instagram
+      link: https://instagram.com/dungeonlaundry
+    - icon: fontawesome/brands/line
+      link: https://line.me/
+
+plugins:
+  - search
+  - git-revision-date-localized:
+      enable_creation_date: true
+
+markdown_extensions:
+  - admonition
+  - attr_list
+  - footnotes
+  - tables
+  - toc:
+      permalink: true
+  - pymdownx.highlight
+  - pymdownx.superfences
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.details
 
 nav:
-  - Home: index.md
+  - 首頁: index.md
+
+  - 法律文件:
+      - 服務條款: legal/fu-wu-tiao-kuan.md
+      - 隱私權政策: legal/privacy-policy.md
+      - 資料安全: legal/data-security.md
+      - 常客計劃條款與條件: legal/chang-ke-ji-hua-tiao-kuan-yu-tiao-jian.md
+
+  - 會員制度:
+      - 會籍挑戰說明: membership/status-challenge.md
+      - 會員等級說明: membership/tier-overview.md
+
+  - 聯絡我們:
+      - 客服資訊: contact.md
+
+copyright: >
+  Copyright © 2026 Dungeon Laundry.
+  All rights reserved.
