@@ -103,11 +103,12 @@ extra:
 nav:
   - 首頁: index.md
 
-  - 法律文件:
+  - 約定條款:
       - 服務條款: legal/tos.md
       - 隱私權政策: legal/privacy-policy.md
       - 資料安全: legal/data-security.md
       - 常客計劃條款與條件: legal/members-program.md
+      - 洗衣服務條款: legal/service-contract.md
       
   - 活動:
       - 會級挑戰: event/status_challange.md
