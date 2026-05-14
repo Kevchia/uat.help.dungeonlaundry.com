@@ -4,13 +4,13 @@
 #   mkdocs-material==9.6.x
 #   mkdocs-git-revision-date-localized-plugin==1.2.x
 
-site_name: Dungeon Laundry Help Center
-site_author: Dungeon Laundry
+site_name: 咖米漾專業洗衣支援中心 Kami Laundry Help Center
+site_author: 咖米漾專業洗衣 Kami Laundry
 site_url: https://uathelp.dungeonlaundry.com/
-site_description: Official Help & Legal Documentation for Dungeon Laundry
+site_description: Official Help & Legal Documentation for Kami Laundry
 
 # Copyright
-copyright: Copyright © 2026 Dungeon Laundry. All rights reserved.
+copyright: Copyright © 2026 Kami Laundry. All rights reserved.
 
 theme:
   name: material
