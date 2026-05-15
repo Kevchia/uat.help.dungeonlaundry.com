@@ -47,10 +47,10 @@ theme:
     - toc.follow
     # - toc.integrate
 
-  palette:
-    - scheme: default
-      primary: black
-      accent: deep purple
+palette:
+  - scheme: default
+    primary: light blue
+    accent: blue
 
 plugins:
   - search:
