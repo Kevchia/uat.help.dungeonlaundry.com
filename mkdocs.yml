@@ -9,12 +9,12 @@ site_author: 咖米漾專業洗衣 Kami Laundry
 site_url: https://uathelp.dungeonlaundry.com/
 site_description: Official Help & Legal Documentation for Kami Laundry
 
-# Copyright
 copyright: Copyright © 2026 Kami Laundry. All rights reserved.
 
 theme:
   name: material
   language: zh-TW
+
   # Uncomment when you have these files
   # logo: assets/logo.png
   # favicon: assets/favicon.png
@@ -24,33 +24,22 @@ theme:
     - content.action.view
     - content.code.annotate
     - content.code.copy
-    # - content.code.select
-    # - content.footnote.tooltips
-    # - content.tabs.link
     - content.tooltips
-    # - header.autohide
-    # - navigation.expand
     - navigation.footer
     - navigation.indexes
-    # - navigation.instant
-    # - navigation.instant.prefetch
-    # - navigation.instant.progress
-    # - navigation.prune
     - navigation.sections
     - navigation.tabs
-    # - navigation.tabs.sticky
     - navigation.top
     - navigation.tracking
     - search.highlight
     - search.share
     - search.suggest
     - toc.follow
-    # - toc.integrate
 
   palette:
     - scheme: default
-       primary: light blue
-       accent: blue
+      primary: light blue
+      accent: blue
 
 plugins:
   - search:
@@ -76,8 +65,6 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
 
-
-# Additional configuration
 extra:
   status:
     new: Recently added
@@ -99,7 +86,6 @@ extra:
     - icon: fontawesome/brands/x-twitter
       link: https://x.com/squidfunk
 
-# Page tree
 nav:
   - 首頁: index.md
 
@@ -109,15 +95,7 @@ nav:
       - 洗衣服務條款: legal/service-contract.md
       - 常客計劃條款與條件: legal/members-program.md
       - 資料安全: legal/data-security.md
-      
+
   - 2026年會籍權益&活動:
       - 會級挑戰: event/status_challange.md
       - 消費回饋: event/consumption_reward.md
-
-  # Optional sections (only keep if you have these files)
-  # - 會員制度:
-  #     - 會籍挑戰說明: membership/status-challenge.md
-  #     - 會員等級說明: membership/tier-overview.md
-  #
-  # - 聯絡我們:
-  #     - 客服資訊: contact.md
