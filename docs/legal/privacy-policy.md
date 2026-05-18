@@ -264,4 +264,4 @@ description: 咖米漾專業洗衣店 隱私權政策
 
 ---
 
-_Last updated: {{ git_revision_date_localized }}_
+發布日期: 2026/05/23

@@ -269,4 +269,4 @@ Cloudflare R2 作為雲端物件儲存服務，用於保存系統備份資料，
 
 ---
 
-_Last updated: {{ git_revision_date_localized }}_
+發布日期: 2026/05/23

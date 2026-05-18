@@ -452,5 +452,4 @@ description: 咖米漾專業洗衣店 洗衣服務條款
 聯絡方式：inquiry[at]@kamibless.com
 
 ---
-
-_Last updated: {{ git_revision_date_localized }}_
+發布日期: 2026/05/23

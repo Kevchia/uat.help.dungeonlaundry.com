@@ -286,4 +286,5 @@ K 幣不得轉讓、折現、兌換現金、要求退款、要求開立發票、
 品牌：**咖米漾專業洗衣店**  
 聯絡方式：support[at]@kamilaundry.com
 
-_Last updated: {{ git_revision_date_localized }}_
+---
+發布日期: 2026/05/23

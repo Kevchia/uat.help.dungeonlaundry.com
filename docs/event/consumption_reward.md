@@ -432,5 +432,4 @@ K 幣可能於交易完成後即時發放，或於本公司完成交易確認、
 聯絡方式：support[at]@kamilaundry.com
 
 ---
-
-_Last updated: {{ git_revision_date_localized }}_
+發布日期: 2026/05/23

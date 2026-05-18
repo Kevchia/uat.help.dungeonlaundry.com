@@ -383,5 +383,4 @@ K 幣逾期失效後，會員不得要求展延、補發、折現、退款、開
 聯絡方式：inquiry[at]@kamibless.com
 
 ---
-
-_Last updated: {{ git_revision_date_localized }}_
+發布日期: 2026/05/23
